@@ -1,0 +1,28 @@
+---
+title: "matriks"
+author: "farich aldyansyah"
+date: "5/3/2021"
+output: pdf_document
+---
+
+```#nomor 2
+matrik <- as.matrix(data.frame(c(9,2,6,5,8),c(12,8,6,4,10),c(3,4,0,2,1)))
+matrik
+var(matrik)#menghitung covarians matriks
+cor(matrik)#menghitung corelasi matriks
+```
+
+
+## nomor 3a
+
+```matrik1 <- as.matrix(data.frame(c(1, -2, 0),c(-2, 5, 0),c(0,0,2)))
+matrik1
+m_eigen <- eigen(matrik1)
+m_eigen
+m_pca <- prcomp(x = matrik1, scale. = TRUE, center = TRUE) 
+m_pca
+
+#nomor 3b
+var(matrik1)#menghitung covarians matriks
+```
+
